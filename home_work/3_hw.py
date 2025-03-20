@@ -40,7 +40,7 @@ def description(c, d, z):
 description(13, 78, 13)
 
 
-def my_positive(my_list = [10, 2, -3, -5, 8]) -> int:
+def my_positive(my_list = [10, 2, 3, -5, 8]) -> int:
     pos = 0
     for n in my_list:
         if n > 0:
