@@ -6,7 +6,7 @@ def test_check():
     driver.get('https://www.saucedemo.com/')
     name = driver.find_element(By.CSS_SELECTOR,'#user-name')
     passw = driver.find_element(By.CSS_SELECTOR, '#password')
-    button_s = driver.find_element(By.CSS_SELECTOR, '*submit')
+    button_s = driver.find_element(By.CSS_SELECTOR, '#login-button')
 
     if name is None or passw is None or button_s is None:
         print('Не найден')
