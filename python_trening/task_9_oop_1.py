@@ -5,11 +5,8 @@ class Input(Checks):
         super().__init__(loc)
 
     def second(self):
-        Checks.check_text()
+        self.loc(loc='#header').check_text()
 
-
-b = Input('testing_one')
-print(b.second())
 
 
 
